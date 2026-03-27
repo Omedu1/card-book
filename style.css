@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(135deg, #0f172a);
+    font-family:sans-serif ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    height: 100hv;
+    margin:0;
+}
+.glass-card{
+    background :rgba(255,255,255,0.05);
+    backdrop-filter:blur(12px) ;
+    -webkit-backdrop-filter:blur(12px) ;
+    color:white;
+    padding: 25px;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    width:500px;
+    text-align:center;
+}
+ button {
+    background-color:#38b5f8 ;
+    color: #140f2a;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    
+ }
+ .my-link{
+    font-size: 20px;
+    color:azure
+ }
